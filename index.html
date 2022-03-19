@@ -18,10 +18,13 @@
       .box.three {
         background-color: green;
       }
+      [v-cloak] {
+        background-color: blue;
+      }
     </style>
   </head>
   <body>
-    <div id="app">
+    <div id="app" v-cloak>
       {{message}}
       <input v-model="message" />
       <hr />
