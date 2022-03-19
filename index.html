@@ -7,7 +7,11 @@
     <title>Lets Learn Vue3</title>
   </head>
   <body>
-    <div id="app">{{message}}</div>
+    <div id="app">
+      {{message}}
+      <input v-model="message" />
+    </div>
+
     <script src="https://unpkg.com/vue@next"></script>
     <script>
       let app = Vue.createApp({
