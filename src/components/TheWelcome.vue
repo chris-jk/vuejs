@@ -22,7 +22,10 @@ import SupportIcon from "./icons/IconSupport.vue";
     <p style="text-align: center">
       <a href="../../strain-guide">StrainGuide</a>
     </p>
-    <p style="text-align: center"><a href="../../">you-stagram</a></p>
+    <p style="text-align: center"><a href="../../mailer">Mailer</a></p>
+    <p style="text-align: center">
+      <a href="../../">You-Stagram</a><i> coming soon!</i>
+    </p>
     <p style="text-align: center">
       <a href="https://github.com/chris-jk"
         ><i style="font-size: 24px" class="fa">&#xf09b;</i></a

@@ -1,8 +1,5 @@
 <template>
   <div class="item">
-    <i>
-      <slot name="icon"></slot>
-    </i>
     <div class="details">
       <h3>
         <slot name="heading"></slot>
@@ -14,6 +11,8 @@
 
 <style scoped>
 .item {
+  text-align: center;
+
   margin-top: 2rem;
   display: flex;
 }
@@ -34,6 +33,7 @@ i {
 }
 
 h3 {
+  text-align: center;
   font-size: 1.2rem;
   font-weight: 500;
   margin-bottom: 0.4rem;
